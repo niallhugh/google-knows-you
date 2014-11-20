@@ -1,0 +1,41 @@
+{
+  "name": "material-ui",
+  "author": "Call-em-all Engineering Team",
+  "version": "0.2.2",
+  "description": "Material Design UI components built with React",
+  "main": "./src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "material design",
+    "material-ui",
+    "material ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callemall/material-ui.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/callemall/material-ui/issues"
+  },
+  "homepage": "http://material-ui.com/",
+  "browser": {
+    "react": "react/addons"
+  },
+  "browserify": {
+    "transform": [
+      "reactify"
+    ]
+  },
+  "dependencies": {
+    "react": "^0.12"
+  },
+  "devDependencies": {
+    "browserify": "^6.3.2",
+    "reactify": "^0.16.0"
+  }
+}
