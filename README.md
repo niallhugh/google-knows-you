@@ -1,1 +1,1 @@
-# [Google knows you]
+# Google knows you
